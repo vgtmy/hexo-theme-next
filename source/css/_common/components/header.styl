@@ -1,0 +1,31 @@
+.site-search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  form {
+    display: flex;
+    align-items: center;
+
+    input {
+      padding: 5px 10px;
+      border: 1px solid $grey-light;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      margin-left: 5px;
+      padding: 5px 10px;
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}

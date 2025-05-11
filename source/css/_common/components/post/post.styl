@@ -1,3 +1,12 @@
+/* 设置博客标题前景色为蓝色 */
+h1 a, .post-title a { 
+  color:rgba(0, 0, 255, 0.9); 
+}
+
+/* 悬停时保持红色（可选） */
+h1 a:hover, .post-title a:hover {
+  color:rgb(255, 0, 34);
+}
 .post-body {
   font-family: $font-family-posts;
   word-wrap();
@@ -30,6 +39,7 @@
   margin-top: 40px;
   text-align: center;
 }
+
 
 .use-motion {
   if (hexo-config('motion.transition.post_block')) {
